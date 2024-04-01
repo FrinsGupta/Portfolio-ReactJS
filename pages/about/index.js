@@ -32,34 +32,34 @@ export const aboutData = [
           <FaJs key="js" />,
           <FaReact key="react" />,
           <SiNextdotjs key="nextjs" />,
-          <SiFramer key="framer" />,
-          <FaWordpress key="wordpress" />,
-          <FaShopify key="shopify" />,
+          // <SiFramer key="framer" />,
+          // <FaWordpress key="wordpress" />,
+          // <FaShopify key="shopify" />,
         ],
       },
-      {
-        title: "UI/UX Design",
-        icons: [
-          <FaFigma key="figma" />,
-          <SiAdobexd key="adobexd" />,
-          <SiAdobephotoshop key="adobephotoshop" />,
-        ],
-      },
+      // {
+      //   title: "UI/UX Design",
+      //   icons: [
+      //     <FaFigma key="figma" />,
+      //     <SiAdobexd key="adobexd" />,
+      //     <SiAdobephotoshop key="adobephotoshop" />,
+      //   ],
+      // },
     ],
   },
-  {
-    title: "awards",
-    info: [
-      {
-        title: "Webby Awards - Honoree",
-        stage: "2019 - 2020",
-      },
-      {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2021 - 2022",
-      },
-    ],
-  },
+  // {
+  //   title: "awards",
+  //   info: [
+  //     {
+  //       title: "Webby Awards - Honoree",
+  //       stage: "2019 - 2020",
+  //     },
+  //     {
+  //       title: "Adobe Design Achievement Awards - Finalist",
+  //       stage: "2021 - 2022",
+  //     },
+  //   ],
+  // },
   {
     title: "experience",
     info: [
@@ -69,19 +69,19 @@ export const aboutData = [
       },
     ],
   },
-  {
-    title: "credentials",
-    info: [
-      {
-        title: "Web Development - Innopolis University, Russia.",
-        stage: "2022",
-      },
-      {
-        title: "Certified Graphic Designer - Coursera",
-        stage: "2017",
-      },
-    ],
-  },
+  // {
+  //   title: "credentials",
+  //   info: [
+  //     {
+  //       title: "Web Development - Innopolis University, Russia.",
+  //       stage: "2022",
+  //     },
+  //     {
+  //       title: "Certified Graphic Designer - Coursera",
+  //       stage: "2017",
+  //     },
+  //   ],
+  // },
 ];
 
 // components
@@ -133,43 +133,45 @@ const About = () => {
             exit="hidden"
             className="hidden md:flex md:max-w-xl xl:max-w-none mx-auto xl:mx-0 mb-8"
           >
-            <div className="flex flex-1 xl:gap-x-6">
+            <div className="flex  xl:gap-x-6">
+            {/* <div className="flex flex-1 xl:gap-x-6"> */}
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={10} duration={5} />+
+                  <CountUp start={0} end={2} duration={5} />+
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Years of experience
                 </div>
               </div>
-              {/* clients */}
-              <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
+              {/* clients  */}
+              {/* <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
                   <CountUp start={0} end={50} duration={5} />+
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Satisfied clients
                 </div>
-              </div>
+              </div> */}
               {/* projects */}
-              <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
+              <div className="relative flex-1">
+              {/* <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0"> */}
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={80} duration={5} />+
+                  <CountUp start={0} end={20} duration={5} />+
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Finished projects
                 </div>
               </div>
               {/* Awards */}
-              <div className="relative flex-1 ">
+              {/* <div className="relative flex-1 ">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
                   <CountUp start={0} end={5} duration={5} />+
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Winning awards
                 </div>
-              </div>
+              </div> */}
             </div>
           </motion.div>
         </div>
