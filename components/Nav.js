@@ -7,17 +7,23 @@ import {
   HiChatBubbleBottomCenterText,
   HiEnvelope,
 } from "react-icons/hi2";
+import { IoSchool } from "react-icons/io5";
 
 //  links (Nav Data)
 export const navData = [
   { name: "home", path: "/", icon: <HiHome /> },
   { name: "about", path: "/about", icon: <HiUser /> },
-  { name: "services", path: "/services", icon: <HiRectangleGroup /> },
+  // { name: "services", path: "/services", icon: <HiRectangleGroup /> },
   { name: "work", path: "/work", icon: <HiViewColumns /> },
+  // {
+  //   name: "testimonials",
+  //   path: "/testimonials",
+  //   icon: <HiChatBubbleBottomCenterText />,
+  // },
   {
-    name: "testimonials",
+    name: "Education",
     path: "/testimonials",
-    icon: <HiChatBubbleBottomCenterText />,
+    icon: <IoSchool />,
   },
   {
     name: "contact",
