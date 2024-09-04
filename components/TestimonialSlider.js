@@ -2,24 +2,24 @@
 export const testimonialSlider = [
   {
     image: "/t-avt-1.png",
-    name: "Anne Smith",
-    position: "Customer",
+    name: "Panjab University",
+    position: "Hoshiarpur",
     message:
-      "I had the pleasure of working with Banji on a Pi to Market app development. Great team Player",
+      "Currently pursuing a BTech degree in Computer Science and Engineering, and I am in my 7th semester.",
   },
   {
     image: "/t-avt-2.png",
-    name: "Jane Doe",
-    position: "Customer",
+    name: "M.K. College",
+    position: "Bhutahi",
     message:
-      "Deep understanding of front-end and back-end technologies, coupled with creative problem-solving skills.",
+      "Completed my +2 Level in 2020 and my main subjects were Physics, Chemistry and Math.",
   },
   {
     image: "/t-avt-3.png",
-    name: "Jhon Doe",
-    position: "Customer",
+    name: "Divya Jyoti School",
+    position: "Lalbandi",
     message:
-      "consistently demonstrated his ability to transform ideas into fully functional websites.",
+      "Completed my Schooling in 2018 with 86.25 percentage in class 10 NEB Board.",
   },
 ];
 
@@ -54,16 +54,7 @@ const TestimonialSlider = () => {
             <div className="flex flex-col items-center md:flex-row gap-x-8 h-full px-16">
               {/* Avatar, name, position */}
               <div className="w-full max-w-[300px] flex flex-col xl:justify-center items-center relative mx-auto xl:mx-0">
-                <div className="flex flex-col justify-center text-center">
-                  {/* avatar */}
-                  <div className="mb-2 max-auto">
-                    <Image
-                      src={person.image}
-                      width={100}
-                      height={100}
-                      alt="client"
-                    />
-                  </div>
+                <div className="flex flex-col justify-center text-center">            
                   {/* name */}
                   <div className="text-lg">{person.name}</div>
                   {/* position */}
@@ -75,11 +66,10 @@ const TestimonialSlider = () => {
               </div>
               <div className="bg-pink-500/10 flex-1 flex flex-col justify-center before:w-[1px] xl:before:bg-white/20 xl:before:absolute xl:before:left-0 xl:before:h-[200px] relative xl:pl-20">
                 {/* quote icon */}
-                <div className="mb-4">
-                  <FaQuoteLeft className="text-4xl xl:text-6xl text-white/20 max-auto md:mx-0" />
-                </div>
+                {/* <div className="mb-4">
+                </div> */}
                 {/* message */}
-                <div className="xl:text-lg text-center md:text-left">
+                <div className="xl:text-lg text-center md:text-left py-6">
                   {person.message}
                 </div>
               </div>

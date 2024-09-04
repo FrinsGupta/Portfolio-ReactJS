@@ -37,9 +37,10 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Logical and results-driven Web Developer committed to creating and
+            {/* Logical and results-driven Web Developer committed to creating and
             enhancing user-centric websites and web 3.0 projects for diverse
-            business goals.
+            business goals. */}
+            Dedicated and innovative Web Developer focused on creating impactful and efficient websites and solutions to meet diverse business goals.
           </motion.p>
           {/* btn */}
           <div className="flex justify-center xl:hidden relative">
@@ -71,7 +72,7 @@ const Home = () => {
           transition={{ duration: 1, ease: "easeInOut" }}
           className="w-full h-full max-w-[537px] max-h-[478px] absolute top-20 lg:bottom-0 lg:right-[8%]"
         >
-          {/* <Avatar /> */}
+          <Avatar />
         </motion.div>
       </div>
     </div>

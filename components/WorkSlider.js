@@ -4,49 +4,51 @@ export const workSlides = {
     {
       images: [
         {
-          title: "blogging site",
-          path: "/ots.png",
-          link: "https://otsnikhilintern.netlify.app/",
+          title: "Paytm-Bank",
+          path: "/paytm.png",
+          link: "https://e-wallet-app-three.vercel.app/",
         },
         {
-          title: "zomato clone",
-          path: "/zomato.png",
-          link: "https://zomatoclonenikj007.netlify.app/",
-        },
-
-        {
-          title: "video streaming website",
-          path: "/aiflix.png",
-          link: "https://aiflixapp.netlify.app/",
+          title: "Medium Blog",
+          path: "/medium.png",
+          link: "https://medium-blog-website-gamma.vercel.app/",
         },
 
         {
-          title: "Chingari landing page",
-          path: "/chingari.png",
-          link: "https://chingariapp.netlify.app/",
+          title: "Coding Bits",
+          path: "/codingbits.png",
+          link: "https://coding-bits.vercel.app/",
+        },
+
+        {
+          title: "Text Utils",
+          path: "/textutils.png",
+          link: "https://text-utils-using-react.vercel.app/",
         },
       ],
     },
     {
       images: [
         {
-          title: "Remine landing page",
-          path: "/remine.png",
-          link: "https://remine-limited.netlify.app/",
+          title: "myntra",
+          path: "/myntra.png",
+          link: "https://myntra-clone-omega.vercel.app/",
+        },
+        {
+          title: "foodapp",
+          path: "/foodapp.png",
+          link: "https://food-app-neon-pi.vercel.app/",
         },
         {
           title: "music player",
           path: "/spotify.png",
-          link: "https://favmusicapp.netlify.app/",
+          link: "",
         },
-        {
-          title: "Banana Language Translator",
-          path: "/bananatalk.png",
-          link: "https://bananatalkproject.netlify.app/",
-        },
+        
         {
           title: "title",
           path: "/thumb3.jpg",
+          link: ""
         },
       ],
     },
@@ -55,7 +57,7 @@ export const workSlides = {
         {
           title: "blogging site",
           path: "/ots.png",
-          link: "https://otsnikhilintern.netlify.app/",
+          link: "",
         },
         {
           title: "title",

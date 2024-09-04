@@ -1,22 +1,17 @@
 import React, { useState } from "react";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 // icons
 import {
-  FaHtml5,
-  FaCss3,
-  FaJs,
   FaReact,
-  FaWordpress,
-  FaFigma,
-  FaShopify,
+  FaGithub,
+  FaAws
 } from "react-icons/fa";
 
 import {
   SiNextdotjs,
-  SiFramer,
-  SiAdobexd,
-  SiAdobephotoshop,
-  SiExpress
+  SiExpress,
+  SiMongodb
 } from "react-icons/si";
 
 // about data
@@ -27,61 +22,29 @@ export const aboutData = [
       {
         title: "Web Development",
         icons: [
-          <FaHtml5 key="html" />,
-          <FaCss3 key="css" />,
-          <FaJs key="js" />,
-          <FaReact key="react" />,
           <SiNextdotjs key="nextjs" />,
-          // <SiFramer key="framer" />,
-          // <FaWordpress key="wordpress" />,
-          // <FaShopify key="shopify" />,
+          <FaReact key="react" />,
+          <BiLogoPostgresql key="sql"/>,
+          <SiMongodb key="mongo" />,
+          <FaGithub key="github" />,
+          <FaAws key="aws" />,
+          <SiExpress key="express" />,
         ],
       },
-      // {
-      //   title: "UI/UX Design",
-      //   icons: [
-      //     <FaFigma key="figma" />,
-      //     <SiAdobexd key="adobexd" />,
-      //     <SiAdobephotoshop key="adobephotoshop" />,
-      //   ],
-      // },
+     
     ],
   },
-  // {
-  //   title: "awards",
-  //   info: [
-  //     {
-  //       title: "Webby Awards - Honoree",
-  //       stage: "2019 - 2020",
-  //     },
-  //     {
-  //       title: "Adobe Design Achievement Awards - Finalist",
-  //       stage: "2021 - 2022",
-  //     },
-  //   ],
-  // },
+ 
   {
     title: "experience",
     info: [
       {
-        title: "Web Developer - Codefeast",
-        stage: "July 2023 - Present",
+        title: "Mentor in Web Dev - Coding Bits",
+        stage: "August 2024 - Present",
       },
     ],
   },
-  // {
-  //   title: "credentials",
-  //   info: [
-  //     {
-  //       title: "Web Development - Innopolis University, Russia.",
-  //       stage: "2022",
-  //     },
-  //     {
-  //       title: "Certified Graphic Designer - Coursera",
-  //       stage: "2017",
-  //     },
-  //   ],
-  // },
+ 
 ];
 
 // components
@@ -111,8 +74,9 @@ const About = () => {
             exit="hidden"
             className="h2 mt-16 xl:mt-32"
           >
-            Captivating <span className="text-accent">stories</span> birth
-            magnificent Designs
+            Crafting <span className="text-accent">code</span> 
+            <br></br>
+            into Seamless Experiences
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -121,9 +85,7 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            7 years ago, I began freelancing as a developer. Since then, I have
-            done remote work for agencies, consulted for startups, and
-            collaborated on digital products for business and consumer use.
+            As a recent graduate, I am eager to begin my journey as a developer. While I am new to the professional world, I have honed my skills through academic projects and internships. I&apos;m passionate about creating digital solutions and am excited to contribute fresh perspectives and energy to innovative teams.
           </motion.p>
           {/* counters */}
           <motion.div
@@ -144,34 +106,16 @@ const About = () => {
                   Years of experience
                 </div>
               </div>
-              {/* clients  */}
-              {/* <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
-                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={50} duration={5} />+
-                </div>
-                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Satisfied clients
-                </div>
-              </div> */}
-              {/* projects */}
+              
               <div className="relative flex-1">
-              {/* <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0"> */}
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={20} duration={5} />+
+                  <CountUp start={0} end={15} duration={5} />+
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Finished projects
                 </div>
               </div>
-              {/* Awards */}
-              {/* <div className="relative flex-1 ">
-                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={5} duration={5} />+
-                </div>
-                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Winning awards
-                </div>
-              </div> */}
+             
             </div>
           </motion.div>
         </div>
